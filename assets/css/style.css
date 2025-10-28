@@ -4,7 +4,16 @@
 
 
 .section {
-    padding-top:4rem;
+    padding-top:2rem;
+}
+
+h2 {
+    text-align: center;
+    text-transform:uppercase;
+    font-size: xx-large;
+}
+.lead { 
+    text-align: center;
 }
 
 
