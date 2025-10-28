@@ -1,5 +1,11 @@
+
+
 /* Global Styles */
-body { background-color: darkolivegreen;}
+
+
+.section {
+    padding-top:4rem;
+}
 
 
 
@@ -9,5 +15,49 @@ body { background-color: darkolivegreen;}
 
 #navbar .logo {
     width: 40px;
+}
+
+#navbar .nav-link{
+
+    font-size: 18px;
+}
+
+
+/* Header Styles */
+
+.card {
+    position:relative; /* establish positioning context for overlay */
+    overflow:hidden; /* ensure overlay doesn't spill out */
+    border: none;           /* remove bootstrap border */
+    box-shadow: none;       /* remove any shadow that may look like a line */
+    background-color: transparent;
+}
+.card-img-overlay{
+    position: absolute; /* fill the card */
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* vertical center */
+    align-items: center; /* horizontal center */
+    text-align: center;
+}
+.card-title {
+    font-weight: 800;
+    font-size: 1.25rem; /* base for extra-small screens */
+
+}
+
+/* Bootstrap breakpoints */
+@media (min-width: 576px) { /* sm */
+  .card-title { font-size: 1.5rem; }
+}
+@media (min-width: 768px) { /* md */
+  .card-title { font-size: 2rem; }
+}
+@media (min-width: 992px) { /* lg */
+  .card-title { font-size: 3rem; }
+}
+@media (min-width: 1200px) { /* xl */
+  .card-title { font-size: 4rem; }
 }
 
