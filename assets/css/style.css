@@ -93,7 +93,18 @@ h2 {
   max-width: 100%;
 }
 
+/* Footer Styles */
 
+#footer {
+    background-color: #f8f9fa;
+    padding: 1rem;
+  
+}
+
+#footer img {
+    width: 40px;
+    height: 40px;
+}
 
 
 
