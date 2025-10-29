@@ -2,7 +2,6 @@
 
 /* Global Styles */
 
-
 .section {
     padding-top:4rem;
 }
@@ -57,10 +56,7 @@ h2 {
 
 /* About section Styles */
 
-#about { 
-    padding-top: 0rem;
 
-}
 
 #signs-list { 
   font-size: 1.25rem;
@@ -121,11 +117,29 @@ h2 {
 
 /* Contact Page styles */
 
+#contact-header {
+  padding-top:6rem;
+}
+
+#contact-header .lead {text-align:left}
+
+.form-label {
+  font-weight:700;
+}
+
+/*Success page styles */
 
 
-
-
-
+/* center #success in viewport */
+#success {
+  display: flex;
+  align-items: center;       /* vertical center */
+  justify-content: center;   /* horizontal center */
+  min-height: 90vh;          /* adjust to taste (use 100vh if you want full screen) */
+  text-align: center;
+}
+#success .row { width:100%; } /* keep bootstrap container/row layout intact */
+/* ...existing code... */
 
 /* Bootstrap breakpoints */
 @media (min-width: 576px) { /* sm */
