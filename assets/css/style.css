@@ -62,6 +62,18 @@ h2 {
 
 }
 
+/* Signs section Styles */
+
+.img-thumbnail {
+    border: none;           /* remove bootstrap border */
+    box-shadow: none;       /* remove any shadow that may look like a line */
+    background-color: transparent;
+}
+
+
+
+
+
 /* Action section Styles */
 
 
