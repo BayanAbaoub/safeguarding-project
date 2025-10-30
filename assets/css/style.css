@@ -16,6 +16,13 @@ body {
    
 }
 
+h2.display-4 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  
+   
+}
+
 h2, 
 h5 {
     font-family: var(--primary-font);
@@ -75,18 +82,39 @@ h2 {
     justify-content: center; /* vertical center */
     align-items: center; /* horizontal center */
     text-align: center;
+    
 }
-.card-title {
+
+#header .card-img-overlay .card-title {
+    font-size: 6rem;
     font-weight: 800;
-    font-size: 1.25rem; /* base for extra-small screens */
+    color: #181818;
+   text-shadow: #F0F2EF 2px 2px 5px,
+    0 1px 0 rgba(0,0,0,0.25),                 /* subtle dark ground for contrast */
+     0 2px 6px rgba(240,242,239,0.95),         /* sharp light edge */
+     0 6px 18px rgba(240,242,239,0.75),        /* mid glow */
+    0 12px 36px rgba(240,242,239,0.45); 
 
+   
+}
+
+#header .card-img-overlay .card-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #181818;
+   text-shadow: #F0F2EF 2px 2px 5px,
+    0 1px 0 rgba(0,0,0,0.25),                 /* subtle dark ground for contrast */
+     0 2px 6px rgba(240,242,239,0.95),         /* sharp light edge */
+     0 6px 18px rgba(240,242,239,0.75),        /* mid glow */
+    0 12px 36px rgba(240,242,239,0.45);  
+   
 }
 
 
 
-/* About section Styles */
 
 
+/* Signs section Styles */
 
 #signs-list { 
   font-size: 1.25rem;
@@ -95,7 +123,7 @@ h2 {
 }
 
 
-/* Signs section Styles */
+
 
 .img-fluid {
     border: none;           /* remove bootstrap border */
@@ -159,6 +187,8 @@ height:140px;
 
 #action .card-title {
     font-size: 2rem;
+    font-weight: 800;
+    color: #181818;
 }
 
 
@@ -172,6 +202,19 @@ height:140px;
   font-weight: 700;
 }
 
+.custom-button-filled {
+  background-color: #ffffff;
+  color: #181818; 
+  border: 2px solid #181818;
+  font-weight: 900;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.custom-button-filled:hover {
+  background-color:#181818;
+  color: #F0F2EF;
+}
 
 
 /* Footer Styles */
@@ -192,15 +235,44 @@ height:140px;
 
 #contact-header {
   padding-top:6rem;
+
 }
 
-#contact-header .lead {text-align:left}
+
+
+
+#contact-header .lead {
+  text-align:left;
+  font-weight: 500;
+}
 
 .form-label {
   font-weight:700;
 }
 
+.form-control, .form-select {
+  background-color:#F0F2EF;
+  border: 2px solid #181818;
+}
+
 /*Success page styles */
+
+
+#success .success-message {
+  background-color:#F0F2EF;
+  border:#181818 2px solid;
+  box-shadow:#181818 2px 2px 5px;
+}
+
+
+
+#success .lead {
+  font-weight: 550;
+  
+}
+
+
+
 
 
 /* center #success in viewport */
