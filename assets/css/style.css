@@ -1,6 +1,30 @@
+/* CSS Variables */
+:root {
+   
+    --primary-color: #566480; 
+    --secondary-color: #474847; 
+
+}
 
 
 /* Global Styles */
+
+body {
+    font-family: var(--primary-font);
+   
+    
+   
+}
+
+h2, 
+h5 {
+    font-family: var(--primary-font);
+    color: #181818;
+}
+
+p{
+    color: #474847;
+}
 
 .section {
     padding-top:4rem;
@@ -16,8 +40,12 @@ h2 {
 
 
 
-
 /* Navbar Styles */
+#navbar {
+    background-color: #F0F2EF;
+    border-bottom: 2px solid #181818;
+    
+}
 
 
 #navbar .logo {
@@ -54,6 +82,8 @@ h2 {
 
 }
 
+
+
 /* About section Styles */
 
 
@@ -77,8 +107,25 @@ h2 {
 }
 
 .accordion-button {
-  text-transform: uppercase
+  text-transform: uppercase;
+  background-color: #F0F2EF;
+  border: #474847 2px solid;
+  box-shadow:#474847 2px 2px 5px;
+  border-radius: 0.25rem;
+  font-weight: 700;
+  color: #181818;
 }
+
+.accordion-collapse {
+
+   border: #474847 2px solid;
+  box-shadow:#474847 2px 2px 5px;
+  border-radius: 0.25rem;
+  
+  color: #181818;
+  
+}
+
 
 
 
@@ -116,11 +163,23 @@ height:140px;
 
 
 
+/* Button styles */
+
+.btn {
+  background-color: #F0F2EF;
+  color:#181818;
+  border: 2px solid #181818;
+  font-weight: 700;
+}
+
+
+
 /* Footer Styles */
 
 #footer {
-    background-color: #f8f9fa;
+    background-color: #F0F2EF;
     padding: 1rem;
+    border-top: 2px solid #181818;
   
 }
 
