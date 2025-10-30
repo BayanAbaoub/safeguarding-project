@@ -1,5 +1,6 @@
-#h1 Safeguarding Project 
-#h2 Project Overview 
+
+# Safeguarding Project 
+## Project Overview 
 This is a basic website to demonstrate some key html and css skills. The topic is safeguarding and the website is designed with a simple colour palette so as to not distract from the serious topic. 
 
 The website has two pages:
@@ -7,54 +8,55 @@ The website has two pages:
 2. A contact page with a form to submit information 
 
 
-#h2 Features
-#h3 Navigation Bar 
+## Features
+### Navigation Bar 
 A responsive navigation bar that is consistent on both pages. The logo on the left hand side refreshes the page and will take you back to the home page, whilst the links on the right correspond to specific sections on the main page. 
 
-#h3 Home Page 
+### Home Page 
 *insert screenshot*
 The picture that welcomes the users to the site is simple with one sentence overlayed on top to introduces the topic in an efficient manner. 
 
-#h3 About 
+### About 
 *insert screenshot*
 The first section explains the topic of the website to ensure that users understand what the issue is in a clear and concise manner. 
 
-#h3 Signs 
+### Signs 
 *insert screenshot*
 The warning signs section includes an accordion that can be opened to learn more about each sign without overwhelming the user with too much information at first glance. This also ensures that only the most important information is visible and will hopefully stick in the users mind. 
 
-#h3 Action 
+### Action 
 *insert screenshot*
 The action section has cards that display the key steps needed to respond when a vulnerable person is in danger. The pictures are a visual reference to the key steps to help have a quick association for users. 
 
-#h3 Contact
+### Contact
 *insert screenshot*
 The contact section shows how users can get in contact with the site owner with an Email button that will link to the contact form page. 
 
-#h3 Contact Form Page 
+### Contact Page Form
 *insert screenshot*
 The contact form page has an easy to use form that allows users to get in touch. The form has required features so that the users can only submit the form when all of the key information is filled. 
 
-#h3 Contact Page Success Page 
+### Contact Page Success Page 
 *insert screenshot*
 The user will be linked to this page when all of the fields of the form are filled to reassure users that their form has been received by the site owner.
 
-#h3 Footer 
+### Footer 
 *insert screenshot*
 A simple footer with social icons that link to the corresponding websites and is consistent on all pages. 
 
-#h2 Additional Features 
+## Additional Features 
 - **Fully responsive layout** - the site works well on desktop, tablet, and mobile devices 
 - **Accessible** - the site has been run through an accessibility checker to ensure that is easy to read and that all alt text is included so that there will be no problems with screen readers
 
-#h2 Wireframes 
+## Wireframes 
 The layout and structure was planned using balsamiq wireframes. This software allowed me to brainstorm how the website features will look on different screen sizes. The wireframes were a useful launchpad for the initial layout. 
-<img src="assets/images/browser-wireframe.png>
 
-#h2 Testing 
+![screenshot of browser, mobiled, and tablet wireframes](assets/images/wireframes.png)
 
-#h2 Issues 
+## Testing 
 
-#h2 Deployment
+## Issues 
 
-#h2 Credit 
+## Deployment
+
+## Credit 
