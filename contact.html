@@ -52,7 +52,7 @@
   </head>
 
   <body class="d-flex flex-column min-vh-100">
-        <!-- Nav Bar -->
+    <!-- Nav Bar -->
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
       <div class="container">
         <a class="navbar-brand" href="index.html"
@@ -81,94 +81,163 @@
               <a class="nav-link" href="index.html#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html#signs">Signs</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="index.html#signs"
+                >Signs</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="index.html#action">Action</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+              <a class="nav-link active" aria-current="page" href="contact.html"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-   
+
     <!-- header section -->
-<header id="contact-header" class="container section">
-    <div class="row justify-content-center">
+    <header id="contact-header" class="container section">
+      <div class="row justify-content-center">
         <div class="col-12 col-md-8 text-center text-xl-start">
-            <h2 class="display-4 text-center">Contact Us</h2>
-            <p class="lead">
-                If you have any questions, concerns, or need assistance regarding safeguarding practices, please don't hesitate to reach out to us. We're here to help and support you in ensuring a safe environment for everyone.
-            </p>
+          <h2 class="display-4 text-center">Contact Us</h2>
+          <p class="lead">
+            If you have any questions, concerns, or need assistance regarding
+            safeguarding practices, please don't hesitate to reach out to us.
+            We're here to help and support you in ensuring a safe environment
+            for everyone.
+          </p>
         </div>
-    </div>
-</header>
+      </div>
+    </header>
 
-<!-- Contact Form Section -->
-<section id="contact-form" class="container pt-2">
-    <div class="row justify-content-center">
+    <!-- Contact Form Section -->
+    <section id="contact-form" class="container pt-2">
+      <div class="row justify-content-center">
         <div class="col-12 col-md-8">
-            <form action="success.html" method="GET">
-                <div class="row ">
-                <div class="col-12 col-md-4 col-lg-4 mb-3">
-                    <label for="full-name" class="form-label">Full Name:</label>
-                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
-                
-                </div>
-                <div class="col-12 col-md-4 col-lg-4 mb-3">
-                    <label for="email" class="form-label">Email address:</label>
-                    <input type="email" class="form-control" id="email" placeholder="Your Email" required>
-                </div>
-                 <div class="col-12 col-md-4 col-lg-4 mb-3">
-                            <label for="phone" class="form-label">Phone number:</label>
-                            <input class="form-control" id="phone" name="phone" type="number" placeholder="Your number" required>
-                        </div>
-                  <div class="col-12 mb-3">
-                            <label for="event-type" class="form-label">Select your concern:</label>
-                            <select id="event-type" class="form-select" name="event-type" required>
-                                <option value="" selected>Select</option>
-                                <option value="regular-play">Report</option>
-                                <option value="dnd">Advice</option>
-                                <option value="retro-night">More resources</option>
-                                <option value="tournament">Other</option>
-                            </select>
-                        </div>
-                <div class="mb-3">
-                    <label for="message" class="form-label">Please include as much information as possible: </label>
-                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
-                </div>
-                </div>
-                <div class="text-end my-4">
-                <button type="submit" class="btn btn-primary">Submit</button>
-                </div>
-
-            </form>
+          <form action="success.html" method="GET">
+            <div class="row">
+              <div class="col-12 col-md-4 col-lg-4 mb-3">
+                <label for="full-name" class="form-label">Full Name:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="col-12 col-md-4 col-lg-4 mb-3">
+                <label for="email" class="form-label">Email address:</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="col-12 col-md-4 col-lg-4 mb-3">
+                <label for="phone" class="form-label">Phone number:</label>
+                <input
+                  class="form-control"
+                  id="phone"
+                  name="phone"
+                  type="number"
+                  placeholder="Your number"
+                  required
+                />
+              </div>
+              <div class="col-12 mb-3">
+                <label for="event-type" class="form-label"
+                  >Select your concern:</label
+                >
+                <select
+                  id="event-type"
+                  class="form-select"
+                  name="event-type"
+                  required
+                >
+                  <option value="" selected>Select</option>
+                  <option value="regular-play">Report</option>
+                  <option value="dnd">Advice</option>
+                  <option value="retro-night">More resources</option>
+                  <option value="tournament">Other</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label"
+                  >Please include as much information as possible:
+                </label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="4"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+              </div>
+            </div>
+            <div class="text-end my-4">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-
-
-
-
-
-  
-   <!-- Footer section -->
+    <!-- Footer section -->
     <footer id="footer">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-sm-4 justify-content-center d-flex gap-3 ms-auto">
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><img src="assets/images/square-facebook-brands-solid-full.png" alt="Facebook" /></a>
-            <a href="https://www.x.com/" target="_blank" rel="noopener" aria-label="Visit our X page (opens in a new tab)"><img src="assets/images/square-x-twitter-brands-solid-full.png" alt="X" /></a>
-            <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)"><img src="assets/images/square-youtube-brands-solid-full.png" alt="Youtube" /></a>
-            <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><img src="assets/images/square-instagram-brands-solid-full.png" alt="Instagram" /></a>
-            </div>
+          <div
+            class="col-12 col-sm-4 justify-content-center d-flex gap-3 ms-auto"
+          >
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Facebook page (opens in a new tab)"
+              ><img
+                src="assets/images/square-facebook-brands-solid-full.png"
+                alt="Facebook"
+            /></a>
+            <a
+              href="https://www.x.com/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our X page (opens in a new tab)"
+              ><img
+                src="assets/images/square-x-twitter-brands-solid-full.png"
+                alt="X"
+            /></a>
+            <a
+              href="https://www.youtube.com/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Youtube page (opens in a new tab)"
+              ><img
+                src="assets/images/square-youtube-brands-solid-full.png"
+                alt="Youtube"
+            /></a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Instagram page (opens in a new tab)"
+              ><img
+                src="assets/images/square-instagram-brands-solid-full.png"
+                alt="Instagram"
+            /></a>
+          </div>
         </div>
       </div>
     </footer>
-
 
     <!-- Bootstrap JS -->
     <script
@@ -182,4 +251,28 @@
       src="https://kit.fontawesome.com/e61b7c1e49.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+    <script>
+      document
+        .querySelectorAll(".navbar-collapse .nav-link")
+        .forEach((link) => {
+          link.addEventListener("click", function (e) {
+            let section = document.querySelector(e.target.getAttribute("href"));
+            if (section) {
+              e.preventDefault(); // Prevent default anchor click behavior
+              let navbarHeight =
+                document.querySelector(".navbar-toggler").offsetHeight;
+              window.scroll({
+                top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                behavior: "smooth",
+              });
+              document
+                .querySelector(".navbar-collapse")
+                .classList.remove("show"); // Collapse navbar
+            }
+          });
+        });
+    </script>
   </body>
+</html>

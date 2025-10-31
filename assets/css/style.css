@@ -10,7 +10,7 @@
 /* Global Styles */
 
 body {
-  font-family: inter;
+  font-family: inter, sans-serif;
 }
 
 .display-4 {
@@ -20,7 +20,6 @@ body {
 
 h2,
 h5 {
-  font-family: var(--primary-font);
   color: #181818;
 }
 
@@ -36,7 +35,8 @@ h2 {
 .lead {
   text-align: center;
   color: #474847;
-  margin-bottom: 1.5 rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
 }
 
 /* Navbar Styles */
@@ -126,10 +126,6 @@ h2 {
 /* Action section Styles */
 
 /* Action cards: smaller and centered */
-
-#action .row {
-  height: 140px;
-}
 
 .card-icon {
   display: flex;
@@ -244,6 +240,10 @@ h2 {
 } /* keep bootstrap container/row layout intact */
 
 /* Bootstrap breakpoints */
+/* mobile-only: reduce large heading and lead paragraph sizes */
+@media (max-width: 575.98px) {
+}
+
 @media (min-width: 576px) {
   /* sm */
   #header .card-img-overlay .card-title {
