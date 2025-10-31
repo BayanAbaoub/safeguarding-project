@@ -77,9 +77,18 @@ The website was tested on various site checkers to ensure the reliability of the
 ## Issues 
 Instead of creating custom class selectors for the action section, I attempted to use the original selectors from boostrap but attempted to make them as specific as possible. This was not an efficient way to write the styling as it was confusing and sometimes overriden by other class selctors within other sections of the site. I was able to resolve this by creating a custom card-icon class with which I could apply specific styling without fear of misapplication.
 
+AI was a helpful tool for styling to ensure that I did not incorporate code that was too advanced at this point in my learning journey. Instead, I used CoPilot to assist in styling the text overlay over the hero image at the top of the webpage because with the initial font and colour the sentence was not legible. I asked CoPilot for a few colour suggestions, as well as different text-shadow combinations until I settled on one that I thought was both legible and stylistically coherent with the rest of my website.
+
+I converted several images from svg to png as CoPilot warned me that some browsers don't support svg.
+
 
 ## Deployment
 The project was deployed via GitHub Pages.
+
+The deployment process:
+- In the Pages section of the repository settings, I selected the main branch and set the root folder as the source. GitHub pages then published the site.
+- Made sure the final version was pushed to the main branch of the repository as I worked through the development to ensure the published website it up to date
+
 
 ## Credit 
 - Bootsrap v.5 
