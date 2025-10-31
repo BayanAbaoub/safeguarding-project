@@ -12,11 +12,12 @@ The website has two pages:
 ### Navigation Bar 
 A responsive navigation bar that is consistent on both pages. The logo on the left hand side refreshes the page and will take you back to the home page, whilst the links on the right correspond to specific sections on the main page. 
 
-![navbar screenshots on various device sizes to show responsiveness](https://file%2B.vscode-resource.vscode-cdn.net/Users/bayanabaoub/Documents/vscode-projects/safeguarding-project/assets/images/navbar-screenshot-1.jpeg?version%3D1761881298106)
+![navbar screenshots on various device sizes to show responsiveness](assets/images/navbar-screenshot-1.jpeg)
 
 ### Home Page 
 The picture that welcomes the users to the site is simple with one sentence overlayed on top to introduces the topic in an efficient manner. 
-![image of hands with title "Stay safe online" overlayed on top](https://file%2B.vscode-resource.vscode-cdn.net/Users/bayanabaoub/Documents/vscode-projects/safeguarding-project/assets/images/hero-image-screenshot.png?version%3D1761881348100)
+
+![image of hands with title "Stay safe online" overlayed on top](assets/images/hero-image-screenshot.png)
 
 ### About 
 The first section explains the topic of the website to ensure that users understand what the issue is in a clear and concise manner. 
