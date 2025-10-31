@@ -72,6 +72,7 @@ The website was tested on various site checkers to ensure the reliability of the
 1. HTML checker - passed on all pages
 2. CSS checker - passed 
 3. Lighthouse - optimal results
+![lighthouse results showing 96 for performance, 98 for accessibility, and 100 for brest practices. Overall 96 score.](assets/images/lighthouse-result-safeguarding-project.png)
 
 ## Issues 
 Instead of creating custom class selectors for the action section, I attempted to use the original selectors from boostrap but attempted to make them as specific as possible. This was not an efficient way to write the styling as it was confusing and sometimes overriden by other class selctors within other sections of the site. I was able to resolve this by creating a custom card-icon class with which I could apply specific styling without fear of misapplication.
