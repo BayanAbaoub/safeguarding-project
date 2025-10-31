@@ -51,7 +51,7 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
-  <body>
+  <body class="d-flex flex-column min-vh-100">
     <!-- Nav Bar -->
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
       <div class="container">
@@ -75,7 +75,9 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
@@ -87,7 +89,7 @@
               <a class="nav-link" href="#action">Action</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -108,9 +110,7 @@
 
             <div class="card-img-overlay">
               <h5 class="card-title">Stay safe online</h5>
-              <p class="card-text">
-                with safeguarding tips and resources
-              </p>
+              <p class="card-text">with safeguarding tips and resources</p>
             </div>
           </div>
         </div>
@@ -135,147 +135,202 @@
             </p>
           </div>
         </div>
-        
       </section>
 
-<!-- Signs section -->
-<section id="signs" class="container">
-  <div class="row">
-    <div class ="col-12 col-md-6 col-lg-6 justify-content-center d-flex flex-column">
-      <h2 class="display-4">Warning Signs</h2>
-      <p class="lead">
-        Recognizing the signs of abuse and neglect is crucial in safeguarding individuals. Here are some common indicators:
-      </p>
-  <div class="accordion accordion-flush mt-2" id="accordionFlushExample">
-  <div class="accordion-item ">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-        Secrecy
-    </h2>
-    <div id="flush-collapseOne" class="accordion-collapse collapse">
-      <div class="accordion-body">If there is a change in device use with increased secretive behaviour, such as locking the device or moving it when others approach, it may be a sign of potential issues.</div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-        Mood Swings
-      </button>
-    </h2>
-    <div id="flush-collapseTwo" class="accordion-collapse collapse">
-      <div class="accordion-body">If an individual exhibits sudden mood swings, such as distress, anxiety, or anger after using online devices, it may indicate potential problems.</div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-        Withdrawal
-      </button>
-    </h2>
-    <div id="flush-collapseThree" class="accordion-collapse collapse">
-      <div class="accordion-body">If an individual becomes increasingly withdrawn, avoids social interactions, or shows a lack of interest in previously enjoyed activities, it may be a sign of digital abuse.</div>
-    </div>
-  </div>
-</div>
-    </div>
-    <div class="col-12 col-md-6 col-lg-6">
-     <img src="assets/images/social-bullying-icon.png" class="img-fluid" alt="Signs of Abuse and Neglect" />
-  </div>
-  </div>
-</section>
+      <!-- Signs section -->
+      <section id="signs" class="container">
+        <div class="row">
+          <div
+            class="col-12 col-md-6 col-lg-6 justify-content-center d-flex flex-column"
+          >
+            <h2 class="display-4">Warning Signs</h2>
+            <p class="lead">
+              Recognizing the signs of abuse and neglect is crucial in
+              safeguarding individuals. Here are some common indicators:
+            </p>
+            <div
+              class="accordion accordion-flush mt-2"
+              id="accordionFlushExample"
+            >
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    Secrecy
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    If there is a change in device use with increased secretive
+                    behaviour, such as locking the device or moving it when
+                    others approach, it may be a sign of potential issues.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    Mood Swings
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    If an individual exhibits sudden mood swings, such as
+                    distress, anxiety, or anger after using online devices, it
+                    may indicate potential problems.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    Withdrawal
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                >
+                  <div class="accordion-body">
+                    If an individual becomes increasingly withdrawn, avoids
+                    social interactions, or shows a lack of interest in
+                    previously enjoyed activities, it may be a sign of digital
+                    abuse.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6">
+            <img
+              src="assets/images/social-bullying-icon.png"
+              class="img-fluid"
+              alt="Signs of Abuse and Neglect"
+            />
+          </div>
+        </div>
+      </section>
 
       <!-- Action section -->
       <section id="action" class="container section">
+        <div class="col-12 text-center">
+          <h2 class="display-4">Take Action</h2>
+        </div>
+        <div class="col-12">
+          <p class="lead">
+            If you suspect that someone is being abused or neglected, it is
+            important to take action. Here are some steps you can take:
+          </p>
+        </div>
         <div class="row">
-          <div class="col-12 text-center">
-            <h2 class="display-4">Take Action</h2>
-          </div>
-          <div class="col-12">
-            <p class="lead">
-              If you suspect that someone is being abused or neglected, it is
-              important to take action. Here are some steps you can take:
-            </p>
-          </div>
-
-          <div class="card mb-3" style="max-width: 660px">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="assets/images/triangle-exclamation-solid-full.png"
-                  class="img-fluid rounded-start"
-                  alt="Report"
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Report</h5>
-                  <p class="card-text">
-                    It's important to report any concerns you may have about
-                    abuse or neglect to the relevant authorities, such as social
-                    services or the police.
-                  </p>
+          <div class="col-12 col-md-6 col-lg-6 mx-auto">
+            <div class="card mb-3" style="max-width: 660px">
+              <div class="row g-0">
+                <div class="col-md-4 card-icon">
+                  <img
+                    src="assets/images/triangle-exclamation-solid-full.png"
+                    class="img-fluid rounded-start"
+                    alt="Report"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Report</h5>
+                    <p class="card-text">
+                      It's important to report any concerns you may have about
+                      abuse or neglect to the relevant authorities, such as
+                      social services or the police.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-
-          <div class="card mb-3" style="max-width: 660px">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="assets/images/folder-open-solid-full.png"
-                  class="img-fluid rounded-start"
-                  alt="Document"
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Document</h5>
-                  <p class="card-text">
-                    Document any evidence or observations that support your
-                    concerns.
-                  </p>
+          <div class="col-12 col-md-6 col-lg-6 mx-auto">
+            <div class="card mb-3" style="max-width: 660px">
+              <div class="row g-0">
+                <div class="col-md-4 card-icon">
+                  <img
+                    src="assets/images/folder-open-solid-full.png"
+                    class="img-fluid rounded-start"
+                    alt="Document"
+                    style="transform: translateY(4px)"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Document</h5>
+                    <p class="card-text">
+                      Document any evidence or observations that support your
+                      concerns.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="card mb-3" style="max-width: 660px">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="assets/images/box-tissue-solid-full.png"
-                  class="img-fluid rounded-start"
-                  alt="Document"
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Support</h5>
-                  <p class="card-text">
-                    Offer support to the individual if it is safe to do so.
-                  </p>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-6 mx-auto">
+            <div class="card mb-3" style="max-width: 660px">
+              <div class="row g-0">
+                <div class="col-md-4 card-icon">
+                  <img
+                    src="assets/images/box-tissue-solid-full.png"
+                    class="img-fluid rounded-start"
+                    alt="Box of Tissues"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Support</h5>
+                    <p class="card-text">
+                      Offer support to the individual if it is safe to do so.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-
-          <div class="card mb-3" style="max-width: 660px">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="assets/images/phone-volume-solid-full.png"
-                  class="img-fluid rounded-start"
-                  alt="Document"
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Follow Up</h5>
-                  <p class="card-text">
-                    Try to follow up to ensure that appropriate action has been
-                    taken with authorities.
-                  </p>
+          <div class="col-12 col-md-6 col-lg-6 mx-auto">
+            <div class="card mb-3" style="max-width: 660px">
+              <div class="row g-0">
+                <div class="col-md-4 card-icon">
+                  <img
+                    src="assets/images/phone-volume-solid-full.png"
+                    class="img-fluid rounded-start"
+                    alt="Phone"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Follow Up</h5>
+                    <p class="card-text">
+                      Try to follow up to ensure that appropriate action has
+                      been taken with authorities.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -304,26 +359,53 @@
       </section>
     </main>
 
-
-
-   <!-- Footer section -->
-    <footer id="footer">
+    <!-- Footer section -->
+    <footer id="footer" class="mt-auto">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-sm-4 justify-content-center d-flex gap-3 ms-auto">
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><img src="assets/images/square-facebook-brands-solid-full.png" alt="Facebook" /></a>
-            <a href="https://www.x.com/" target="_blank" rel="noopener" aria-label="Visit our X page (opens in a new tab)"><img src="assets/images/square-x-twitter-brands-solid-full.png" alt="X" /></a>
-            <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)"><img src="assets/images/square-youtube-brands-solid-full.png" alt="Youtube" /></a>
-            <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><img src="assets/images/square-instagram-brands-solid-full.png" alt="Instagram" /></a>
-            </div>
+          <div
+            class="col-12 col-sm-4 justify-content-center d-flex gap-3 ms-auto"
+          >
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Facebook page (opens in a new tab)"
+              ><img
+                src="assets/images/square-facebook-brands-solid-full.png"
+                alt="Facebook"
+            /></a>
+            <a
+              href="https://www.x.com/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our X page (opens in a new tab)"
+              ><img
+                src="assets/images/square-x-twitter-brands-solid-full.png"
+                alt="X"
+            /></a>
+            <a
+              href="https://www.youtube.com/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Youtube page (opens in a new tab)"
+              ><img
+                src="assets/images/square-youtube-brands-solid-full.png"
+                alt="Youtube"
+            /></a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Instagram page (opens in a new tab)"
+              ><img
+                src="assets/images/square-instagram-brands-solid-full.png"
+                alt="Instagram"
+            /></a>
+          </div>
         </div>
       </div>
     </footer>
-
-
-
-
-
 
     <!-- Bootstrap JS -->
     <script
