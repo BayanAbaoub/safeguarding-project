@@ -242,8 +242,7 @@ h2 {
 
 /* Bootstrap breakpoints */
 /* mobile-only: reduce large heading and lead paragraph sizes */
-@media (max-width: 575.98px) {
-}
+
 
 @media (min-width: 576px) {
   /* sm */
@@ -255,7 +254,7 @@ h2 {
 @media (min-width: 768px) {
   /* md */
   #header .card-img-overlay .card-title {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   #header .card-img-overlay .card-text {
@@ -266,7 +265,7 @@ h2 {
 @media (min-width: 992px) {
   /* lg */
   #header .card-img-overlay .card-title {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 }
 
